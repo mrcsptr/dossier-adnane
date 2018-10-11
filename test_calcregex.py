@@ -7,7 +7,7 @@ from calc_regex import *
 class MyFirstTests(unittest.TestCase):
 
 	def testcalc(self):
-		self.assertEqual(score_calc('calc som 5 et 9'), 14)
+		self.assertEqual(calc_regex('calc som 5 et 9'), 14)
 
 
 
